@@ -32,5 +32,5 @@ jobs:
           mkdir HOME && ls -l
           pwd
           cd HOME && mkdir src && ls -l
-          cd HOME && ls -l
+          pwd
           
