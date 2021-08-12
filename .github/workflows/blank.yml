@@ -31,4 +31,6 @@ jobs:
         run: |
           mkdir HOME && ls -l
           pwd
+          cd HOME && mkdir src && ls -l
+          pwd
           
