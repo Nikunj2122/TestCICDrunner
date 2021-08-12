@@ -33,5 +33,5 @@ jobs:
           pwd
           cd HOME && mkdir src && ls -l
           cd /home/runner/work/TestCICDrunner/TestCICDrunner/HOME && ls -l
-          cp /home/runner/work/TestCICDrunner/TestCICDrunner/ HOME/src
+          cp -r /home/runner/work/TestCICDrunner/TestCICDrunner/ HOME/src
           
