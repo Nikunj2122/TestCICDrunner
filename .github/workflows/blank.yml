@@ -38,4 +38,5 @@ jobs:
       - name: Copy data to Absulate path    
         run: |
            cp -r /home/runner/work/TestCICDrunner/TestCICDrunner/README.md HOME/src
+           ls -l
           
