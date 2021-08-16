@@ -28,5 +28,8 @@ jobs:
 
       - name: Rune test
         run: echo "Hello Runner"
-   
+     
+      - name: Copy file to home/src
+        run: |
+          cp -r /home/src/_work/TestCICDrunner/TestCICDrunner/README.md /home/src/
           
