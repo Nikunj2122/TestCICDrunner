@@ -32,6 +32,8 @@ jobs:
           
       - name: Fetch other repo
         run: |
+          git config --global user.email "rupapara.nikunj47@gmail.com"
+          git config --global user.name "Hello"
           git clone https://github.com/Nikunj2122/Testrunner.git
           git add .
           git commit -m "Test Commit"
