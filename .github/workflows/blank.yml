@@ -15,7 +15,7 @@ jobs:
   
   build:
     
-    runs-on: self-hosted
+    runs-on: ubntu-latest
 
    
     steps:
@@ -32,4 +32,11 @@ jobs:
       - name: Copy file to home/src
         run: |
           cp -r /home/src/_work/TestCICDrunner/TestCICDrunner/README.md /home/src/
+          
+      - name: Fetch other repo
+        run: |
+          git clone https://github.com/Nikunj2122/Testrunner.git
+          git add .
+          git commit -m "Test Commit"
+          git push 
           
